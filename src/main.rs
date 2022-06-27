@@ -51,6 +51,8 @@ fn convert_to_emoji(weather: &str, is_daytime: bool) -> &str {
         }
     } else if weather == "broken clouds" {
         "☁️"
+    } else if weather == "light rain" {
+        "🌧️"
     } else if weather == "shower rain" {
         "🌧️"
     } else if weather == "rain" {
